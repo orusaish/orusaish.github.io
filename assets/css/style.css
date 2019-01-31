@@ -1,0 +1,43 @@
+.name-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3rem;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.buttons > div {
+    padding: 15px;
+    font-size: 16px;
+
+} 
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    background-color: white;
+    margin: auto;
+
+}
+.container {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+body {
+     background-color: rgb(242,242,242); 
+     margin: 0;
+}
+.content {
+    display: flex;
+    background-color: white;
+
+}

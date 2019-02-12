@@ -115,9 +115,27 @@ input {
   padding-top: 30px;
   width: 100%;
 }
-[class*="col-"] {
+/* [class*="col-"] {
   width: 100%;
+} */
+@media only screen and (max-width: 450px) {
+  .container {
+    background-color: #4aaaa5;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .buttons {
+    margin-left: 0px;
+  }
+  .name-header {
+    margin-left: 15px;
+  }
 }
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -126,20 +144,22 @@ input {
     width: 100%;
   }
   .header-container {
-    width: 100%;
-    justify-content: space-between;
+    /* width: 100%; */
   }
   .buttons {
-    width: 100%;
+    padding: 5px;
   }
   .header h1 {
     font-size: 17px;
+  }
+  .name-header {
+    padding: 0px;
+    width: 10rem;
   }
 }
 @media only screen and (max-width: 1130px) {
   .container {
     width: 100%;
-    background-color: aquamarine;
   }
   .header {
     width: 100%;
@@ -147,13 +167,13 @@ input {
     justify-content: space-between;
   }
   .header-container {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     margin-left: 2rem;
   }
   .buttons {
-    width: 100%;
+    /* width: 100%; */
     margin-left: 20px;
   }
   .name-header {
